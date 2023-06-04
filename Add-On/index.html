@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atatürk</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <button class="change-theme">☼</button>
+
+    <div class="container">
+      <h1>Who is Atatürk?</h1>
+
+      <h3>The founding father of the Republic of Turkey 🇹🇷</h3>
+
+      <a
+        href="https://www.kulturportali.gov.tr/portal/ataturk-un-hayati"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/193/original/Ata.jpeg?1685741955"
+          alt="Atatürk-1"
+          class="main-Atatürk"
+        />
+      </a>
+
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/622/original/2020-02-21-135946-resim-6.jpg?1685323711"
+          alt="grid-pic"
+          id="pic"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/197/original/atatu%CC%88rk.jpg?1685742734"
+          alt="grid-pic"
+          id="pic"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/619/original/mustafa-kemal-ataturk-aa-1693318.jpg?1685322585"
+          alt="grid-pic"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/352/original/Basogretmen-Ataturk.jpg?1685833149"
+          alt="grid-pic"
+        />
+      </div>
+
+      <p>
+        Mustafa Kemal Atatürk (1881 - ∞) was a Turkish field marshal,
+        revolutionary statesman, author, and the founding father of the Republic
+        of Turkey, serving as its first president from 1923 until his death in
+        1938. He undertook sweeping progressive reforms, which modernized Turkey
+        into a secular, industrializing nation. Ideologically a secularist and
+        nationalist, his policies and socio-political theories became known as
+        Kemalism. Due to his military and political accomplishments, Atatürk is
+        regarded as one of the most important political leaders of the 20th
+        century.
+      </p>
+
+      <a
+        href="https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%c3%bcrk"
+        target="_blank"
+      >
+        <strong> Read on Wikipedia </strong>
+      </a>
+    </div>
+
+    <footer>
+      Coded with 🫶 by
+      <a href="https://github.com/berraozkan" target="_blank">Berra Özkan</a>
+    </footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        body.classList.toggle("dark");
+      }
+
+      let themeButton = document.querySelector(".change-theme");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
